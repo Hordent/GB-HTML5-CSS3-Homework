@@ -1,0 +1,456 @@
+@font-face {
+    font-family: SocialIco;
+    src: url("../../fonts/Socialico.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #445162;
+    padding: 50px;
+    overflow: hidden;
+
+}
+
+.headerText {
+    float: left;
+    width: 55%;
+
+    overflow: hidden;
+}
+
+.headerText h1 {
+
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    display: block;
+    margin: 0;
+    line-height: 0.7;
+
+
+}
+
+.headList {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 28px;
+
+}
+
+.headList {
+    padding-left: 40px;
+    list-style-image: url(../../img/check_icon.png);
+}
+
+.aboutImgWrap,
+.headImgWrap {
+    float: right;
+}
+
+.aboutProduct {
+    padding: 50px;
+    overflow: hidden;
+}
+
+.aboutText {
+    float: left;
+    width: 55%;
+}
+
+.aboutText h2 {
+    margin-bottom: 30px;
+
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.aboutText p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.aboutText p:last-child {
+    margin-bottom: 0;
+}
+
+.dignityAndPluses {
+    overflow: hidden;
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+.dignityAndPluses h2 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #445161;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pluses {
+    list-style: none;
+    overflow: hidden;
+}
+
+.pluses li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333;
+    padding-left: 40px;
+    text-align: justify;
+
+}
+
+.dignityAndPluses ul li {
+    background: url(../../img/plus_icon.gif) no-repeat 0px 5px;
+
+}
+
+.pluses li {
+    width: calc(50% - 50px - 5px);
+    margin-bottom: 35px;
+}
+
+.pluses li:nth-child(odd) {
+    float: left;
+}
+
+.pluses li:nth-child(even) {
+    float: right;
+}
+
+.pluses li:nth-last-child(-n+2) {
+    margin-bottom: 0px;
+}
+
+.pluses ul:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.screenshots {
+    padding: 50px;
+    overflow: hidden;
+}
+
+.screenshots h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #445161;
+    margin-bottom: 35px;
+}
+
+.screenshots h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #445161;
+}
+
+.screenshots p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333333;
+    text-align: justify;
+}
+
+.screenArticle {
+    overflow: hidden;
+    width: calc(50% - 8px);
+    float: left;
+}
+
+.screenArticle:nth-of-type(odd) {
+    margin-right: 16px;
+}
+
+.screenArticle:nth-of-type(-n+2) {
+    margin-bottom: 30px;
+}
+
+.screenArticle img {
+    float: left;
+    margin-right: 15px;
+}
+
+.reviews {
+    padding: 50px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+
+.reviews img {
+    border-radius: 50%;
+    float: left;
+}
+
+.reviews h2 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.comment {
+    background-color: #ebebeb;
+    float: left;
+    width: calc(100% - 90px - 20px - 32px);
+    margin-left: 20px;
+    padding: 16px;
+    position: relative;
+}
+
+.reviews .text {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.reviews .author {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #989898;
+}
+
+.reviews section {
+    width: calc(50% - 8px);
+    float: left;
+    margin-bottom: 24px;
+}
+
+.reviews section:nth-of-type(odd) {
+    margin-right: 16px;
+}
+
+.reviews section:last-of-type(-n+2) {
+    margin-bottom: 0;
+}
+
+.reviews .arrow {
+    width: 20px;
+    height: 20px;
+    background-color: #ebebeb;
+    position: absolute;
+    left: -10px;
+    transform: rotate(45deg);
+}
+
+.buy {
+    padding: 50px;
+}
+
+.buy h2 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.buy h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 50px;
+    display: block;
+    background-color: #445162;
+    text-align: center;
+}
+
+.buy .buyBlockWrap {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.buy .buyBlock {
+    width: 300px;
+    background-color: #445162;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 22px;
+}
+
+.buy .firstBlock {
+    height: 306px;
+}
+
+.buy .secondBlock {
+    height: 404px;
+}
+
+.buy .thirdBlock {
+    height: 499px;
+}
+
+.buy .price {
+    color: #445162;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding: 18px;
+    background-color: #fff;
+    border-right: 4px solid;
+    border-left: 4px solid;
+}
+
+.buy .buyBlock p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 19px 20px;
+}
+
+.buy .buyButtom a {
+    display: block;
+    background-color: #fff;
+    color: #445161;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    width: 260px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+.contacts {
+    padding: 50px;
+    overflow: hidden;
+    background-color: #445162;
+}
+
+.contacts h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 35px;
+}
+
+.contacts .contactsWrap {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts .contactForm {
+    width: 500px;
+    margin-right: 46px;
+
+}
+
+.contactForm .field {
+    width: calc(100% - 20px);
+    background-color: #fff;
+    margin-bottom: 21px;
+    padding: 10px;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 5px;
+}
+
+
+
+.contactForm textarea {
+    min-height: 170px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+}
+
+.contactForm .sendButtom {
+    width: 140px;
+    height: 40px;
+    background-color: #fff;
+    color: #445162;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-style: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 180px;
+}
+.contactInfo {
+    width:300px;
+}
+
+.contactInfo img {
+    float: left;
+    margin-right: 5px;
+}
+
+.contactInfo p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer {
+    text-align: center;
+    height: 26px;
+    color: #445161;
+    font-size: 12px;
+    font-weight: 400;
+}
+footer p {
+    padding-top: 5px;
+}
+
+.contactPiece {
+    margin-bottom: 18px;
+}
+.contactInfo .social a {
+    font-family: socialico;
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 44px;
+    text-decoration: none;
+}
+.contactInfo .social a:hover {
+    color: #ebebeb;
+}
