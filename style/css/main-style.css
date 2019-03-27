@@ -20,17 +20,20 @@ body {
 }
 
 header {
-    background-color: #445162;
-    padding: 50px;
     overflow: hidden;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
 
 }
 
 .headerText {
-    float: left;
     width: 55%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
 
-    overflow: hidden;
+
 }
 
 .headerText h1 {
@@ -61,8 +64,7 @@ header {
     list-style-image: url(../../img/check_icon.png);
 }
 
-.aboutImgWrap,
-.headImgWrap {
+.aboutImgWrap {
     float: right;
 }
 
@@ -129,7 +131,7 @@ header {
 }
 
 .dignityAndPluses ul li {
-    background: url(../../img/plus_icon.gif) no-repeat 0px 5px;
+    background: url(../../img/plus_icon.gif) no-repeat 0 5px;
 
 }
 
@@ -147,7 +149,7 @@ header {
 }
 
 .pluses li:nth-last-child(-n+2) {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .pluses ul:after {
@@ -410,13 +412,22 @@ header {
     font-size: 16px;
     line-height: 24px;
     text-transform: uppercase;
-    font-style: bold;
+    font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
     margin-left: 180px;
 }
+
+.contactForm label {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 5px;
+    line-height: 24px;
+}
+
 .contactInfo {
-    width:300px;
+    width: 300px;
 }
 
 .contactInfo img {
@@ -437,6 +448,7 @@ footer {
     font-size: 12px;
     font-weight: 400;
 }
+
 footer p {
     padding-top: 5px;
 }
@@ -444,6 +456,7 @@ footer p {
 .contactPiece {
     margin-bottom: 18px;
 }
+
 .contactInfo .social a {
     font-family: socialico;
     color: #ffffff;
@@ -451,6 +464,7 @@ footer p {
     line-height: 44px;
     text-decoration: none;
 }
+
 .contactInfo .social a:hover {
     color: #ebebeb;
 }
