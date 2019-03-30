@@ -11,23 +11,22 @@
 </head>
 
 <body>
+
+    <header>
+        <video src="video/California-Desert.mp4" loop autoplay muted></video>
+        <div class="headerText">
+            <h1>Product name</h1>
+            <ul class="headList">
+                <li>Put on this page information about your product</li>
+                <li>A detailed description of your product</li>
+                <li>Tell us about the advantages and merits</li>
+                <li>Associate the page with the payment system</li>
+            </ul>
+        </div>
+
+
+    </header>
     <div class="container">
-        <header>
-
-            <div class="headerText">
-                <h1>Product name</h1>
-                <ul class="headList">
-                    <li>Put on this page information about your product</li>
-                    <li>A detailed description of your product</li>
-                    <li>Tell us about the advantages and merits</li>
-                    <li>Associate the page with the payment system</li>
-                </ul>
-            </div>
-            <div class="headImgWrap">
-                <img src="img/1.jpg" alt="Picture">
-            </div>
-
-        </header>
         <main>
             <div class="aboutProduct">
                 <div class="aboutText">
@@ -79,38 +78,38 @@
             </div>
             <div class="reviews">
                 <h2>Reviews</h2>
-                <section>
-                    <img src="img/4.jpg" a lt="Picture">
+                <div class="section">
+                    <img src="img/4.jpg" alt="Picture">
                     <div class="comment">
                         <div class="arrow"></div>
                         <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius labore commodi, saepe, tempore iste laboriosam! Perspiciatis quam, sapiente! Voluptatem distinctio voluptate asperiores numquam, unde, est.</p>
                         <p class="author">Lorem ipsum.</p>
                     </div>
-                </section>
-                <section>
-                    <img src="img/4.jpg" a lt="Picture">
+                </div>
+                <div class="section">
+                    <img src="img/4.jpg" alt="Picture">
                     <div class="comment">
                         <div class="arrow"></div>
                         <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius labore commodi, saepe, tempore iste laboriosam! Perspiciatis quam, sapiente! Voluptatem distinctio voluptate asperiores numquam, unde, est.</p>
                         <p class="author">Lorem ipsum.</p>
                     </div>
-                </section>
-                <section>
-                    <img src="img/4.jpg" a lt="Picture">
+                </div>
+                <div class="section">
+                    <img src="img/4.jpg" alt="Picture">
                     <div class="comment">
                         <div class="arrow"></div>
                         <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius labore commodi, saepe, tempore iste laboriosam! Perspiciatis quam, sapiente! Voluptatem distinctio voluptate asperiores numquam, unde, est.</p>
                         <p class="author">Lorem ipsum.</p>
                     </div>
-                </section>
-                <section>
-                    <img src="img/4.jpg" a lt="Picture">
+                </div>
+                <div class="section">
+                    <img src="img/4.jpg" alt="Picture">
                     <div class="comment">
                         <div class="arrow"></div>
                         <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius labore commodi, saepe, tempore iste laboriosam! Perspiciatis quam, sapiente! Voluptatem distinctio voluptate asperiores numquam, unde, est.</p>
                         <p class="author">Lorem ipsum.</p>
                     </div>
-                </section>
+                </div>
             </div>
             <div class="buy">
                 <h2>Buy it now</h2>
@@ -177,7 +176,9 @@
                     <form action="#" class="contactForm">
                         <input class="field shortField" type="text" placeholder="Your name"><br>
                         <input class="field shortField" type="text" placeholder="Your email:"><br>
-                        <textarea class="field longField" type="textarea" placeholder="Your message:"></textarea><br>
+                        <label for="dateOfBirth">Дата рождения:</label>
+                        <input class="field shortField" type="date" name="dateOfBirth" id="dateOfBirth">
+                        <textarea class="field longField" placeholder="Your message:"></textarea><br>
                         <input class="sendButtom" type="submit" value="SEND">
                     </form>
                     <div class="contactInfo">
@@ -198,20 +199,20 @@
                             <p>80 00 4568 55 55</p>
                         </div>
                         <div class="social">
-                           <a href="#">l</a>
-                           <a href="#">f</a>
-                           <a href="#">i</a>
-                           <a href="#">g</a>
-                           <a href="#">x</a>                        
+                            <a href="#">l</a>
+                            <a href="#">f</a>
+                            <a href="#">i</a>
+                            <a href="#">g</a>
+                            <a href="#">x</a>
                         </div>
                     </div>
                 </div>
             </div>
 
         </main>
-    <footer>
-       <p>Copyright &copy; 2019 г.</p> 
-    </footer>
+        <footer>
+            <p>Copyright &copy; 2019 г.</p>
+        </footer>
     </div>
 
 
